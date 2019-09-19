@@ -1,0 +1,52 @@
+/*
+Theme Name:   	Lisner Child Theme
+Theme URI:    	http://www.themeforest.net/user/pebas/lisner
+Author:       	Pepe lolol step 2
+Author URI:		http://themeforest.net/user/pebas
+Template:       lisner
+Description:    Lisner WP Theme Child
+Version:      	1.0.2
+License:        GNU General Public License version 3.0
+License URI:    http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain:    lisner-child
+Tags:           translation-ready
+*/
+
+.select-wrapper::before {
+
+    content: 'R' !important;
+    top: 4px !important;
+}
+.lisner-listing-price-range i:not(:last-child) {
+    margin-right: 3px !important;
+}
+#book{
+    width: 100%;
+    position: relative;
+    height: 40px;
+}
+#book button{
+    float: right;
+    margin: 15px 0px 0px 0px;
+}
+#standby-off{
+    display: none;
+}
+
+.standby-on {
+    background: rgba(0,0,0,.8);
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    overflow-y: auto;
+    display: block!important;
+}
+
+.rand-icon{
+    font-style: unset;
+}
+
+.select2-icons .rand-icon{display: block !important;margin-right: 3px !important;}
