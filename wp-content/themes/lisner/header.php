@@ -14,6 +14,13 @@
 
 <?php $option = get_option( 'pbs_option' ); ?>
 <body <?php body_class() ?> itemscope="itemscope" itemtype="https://schema.org/WebPage">
+
+<div id="booking-overlay">
+	<div id="booking-schedule">
+		<span id="close"><i class="material-icons mf">clear</i></span>
+		<?php echo do_shortcode('[webba_booking service="1"]');?>
+	</div>
+</div>
 <div id="standby-off">
 </div>
 <!-- Header -->

@@ -57,7 +57,7 @@
 		); ?>
 		<?php include lisner_helper::get_template_part( 'single-price-range', 'listing/single/sidebar', $pr_args ); ?>
 		<div id="book">
-			<button class="btn btn-primary animate">Book now</button>
+			<button class="btn btn-primary">Book now</button>
 		</div>
 	</section>
 <?php endif; ?>

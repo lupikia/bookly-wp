@@ -94,6 +94,3 @@ $hide_expired = get_option( 'job_manager_hide_expired_content', 0 );
 		<?php dynamic_sidebar( 'sidebar-listing-single' ); ?>
 	</div>
 <?php endif; ?>
-<div id="booking-schedule">
-	<?php echo do_shortcode('[webba_booking service="1"]');?>
-</div>

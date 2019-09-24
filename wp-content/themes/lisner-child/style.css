@@ -50,3 +50,22 @@ Tags:           translation-ready
 }
 
 .select2-icons .rand-icon{display: block !important;margin-right: 3px !important;}
+
+#booking-schedule{
+    position: absolute;
+    margin: auto;
+    margin-top: 20%;
+    z-index: 1001;
+}
+#booking-overlay{
+    width: 500px;
+    margin: auto;
+    height: 100%;
+    display: none;
+    position: relative;
+}
+#close{
+    position: absolute;
+    right: 0px;
+    margin: 10px;
+}

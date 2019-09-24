@@ -356,7 +356,7 @@ class lisner_meta {
 			'fields'  => $faq_fields,
 			'context' => 'advanced',
 			'include' => array(
-				'template' => array( 'templates/tpl-faq.php' ),
+				'template' => array( 'templates/tpl-pricing.php' ),
 			),
 		);
 
