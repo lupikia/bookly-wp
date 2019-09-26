@@ -15,6 +15,10 @@
 <?php $option = get_option( 'pbs_option' ); ?>
 <body <?php body_class() ?> itemscope="itemscope" itemtype="https://schema.org/WebPage">
 
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/6481072.js"></script>
+<!-- End of HubSpot Embed Code -->
+
 <div id="booking-overlay">
 	<div id="booking-schedule">
 		<span id="close"><i class="material-icons mf">clear</i></span>

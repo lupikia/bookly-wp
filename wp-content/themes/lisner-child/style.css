@@ -69,3 +69,6 @@ Tags:           translation-ready
     right: 0px;
     margin: 10px;
 }
+.header.hedaer-top{
+    overflow-y: hidden !important;
+}
