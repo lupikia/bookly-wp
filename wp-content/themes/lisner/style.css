@@ -12145,11 +12145,6 @@ aside.single-listing-sidebar:not(.single-listing-sidebar-lisner):not(.single-lis
   font-size: 16px;
   color: #747474;
 }
-@media (min-width: 1441px) {
-  .woocommerce select {
-    display: none;
-  }
-}
 .select2-container--default .select2-selection--single {
   display: flex;
   align-items: center;

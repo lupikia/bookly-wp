@@ -9,7 +9,7 @@
  */
 ?>
 
-<!-- Listing Package / New Package -->
+<!-- package element user package Listing Package / New Package -->
 <div class="listing-package-wrapper">
     <div class="listing-package">
         <!-- Listing Package / Title -->

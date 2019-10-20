@@ -9,7 +9,7 @@
  */
 ?>
 
-<!-- Listing Package / New Package -->
+<!--package element Listing Package / New Package -->
 <div class="listing-package-wrapper <?php echo $distinctive ? esc_attr( 'listing-package-wrapper-distinctive' ) : ''; ?>">
     <div class="listing-package">
         <!-- Listing Package / Title -->

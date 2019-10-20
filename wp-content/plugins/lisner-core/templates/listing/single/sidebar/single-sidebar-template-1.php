@@ -121,7 +121,8 @@ $author          = lisner_get_var( $author, 1 );
 			'title'     => esc_html__( 'Price Range', 'lisner-core' ),
 		); ?>
 		<?php include lisner_helper::get_template_part( 'single-price-range', 'listing/single/sidebar', $pr_args ); ?>
-		<div id="book">
+		<div id="book book1">
+			<?php echo do_shortcode("[webba_booking]"); ?>
 			<button class="btn btn-primary">Book now</button>
 		</div>
 	</section>

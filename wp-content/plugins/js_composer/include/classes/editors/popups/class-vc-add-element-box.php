@@ -96,6 +96,8 @@ class Vc_Add_Element_Box implements Vc_Render {
 		/** @var array $element */
 		$buttons_count = 0;
 		$shortcodes = $this->shortcodes();
+
+		//var_dump($shortcodes);
 		foreach ( $shortcodes as $element ) {
 			if ( isset( $element['content_element'] ) && false === $element['content_element'] ) {
 				continue;
